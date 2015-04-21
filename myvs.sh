@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#requires mpv and youtube-dl to be installed
 echo "stream URL:"
 read STREAMURL
 mpv $(youtube-dl -g "$STREAMURL")
